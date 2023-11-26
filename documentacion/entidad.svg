@@ -1,0 +1,1618 @@
+Creator	"DbVis"
+Whatever	"Stuff"
+graph
+[
+	label	""
+	directed	1
+	node
+	[
+		id	0
+		graphics
+		[
+			x	1279.7977322284637
+			y	219.12844167420369
+			w	243.0
+			h	67.14735794067383
+			customconfiguration	"DEFAULT"
+			fill	"#FFFFCC"
+			outline	"#808080"
+		]
+		LabelGraphics
+		[
+			text	"academic_period"
+			fontSize	12
+			fontName	"Inter"
+			anchor	"t"
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"acp_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	1182.2977322284637
+			y	214.0771206445406
+		]
+		LabelGraphics
+		[
+			text	"SERIAL"
+			fontSize	11
+			fontName	"Inter"
+			x	1242.2977322284637
+			y	214.0771206445406
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"acp_name"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	1182.2977322284637
+			y	233.3896206445406
+		]
+		LabelGraphics
+		[
+			text	"CHARACTER VARYING(100)"
+			fontSize	11
+			fontName	"Inter"
+			x	1242.2977322284637
+			y	233.3896206445406
+		]
+	]
+	node
+	[
+		id	1
+		graphics
+		[
+			x	698.7090811145137
+			y	695.8776901123075
+			w	185.0
+			h	105.77235794067383
+			customconfiguration	"DEFAULT"
+			fill	"#FFFFCC"
+			outline	"#808080"
+		]
+		LabelGraphics
+		[
+			text	"assistance"
+			fontSize	12
+			fontName	"Inter"
+			anchor	"t"
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"asc_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	630.2090811145137
+			y	671.5138690826444
+		]
+		LabelGraphics
+		[
+			text	"SERIAL"
+			fontSize	11
+			fontName	"Inter"
+			x	708.2090811145137
+			y	671.5138690826444
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"asc_date"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	630.2090811145137
+			y	690.8263690826444
+		]
+		LabelGraphics
+		[
+			text	"DATE"
+			fontSize	11
+			fontName	"Inter"
+			x	708.2090811145137
+			y	690.8263690826444
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"asc_attended"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	630.2090811145137
+			y	710.1388690826444
+		]
+		LabelGraphics
+		[
+			text	"BOOLEAN"
+			fontSize	11
+			fontName	"Inter"
+			x	708.2090811145137
+			y	710.1388690826444
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"asc_crs_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	630.2090811145137
+			y	729.4513690826444
+		]
+		LabelGraphics
+		[
+			text	"INTEGER"
+			fontSize	11
+			fontName	"Inter"
+			x	708.2090811145137
+			y	729.4513690826444
+		]
+	]
+	node
+	[
+		id	2
+		graphics
+		[
+			x	217.0
+			y	1023.8193463009068
+			w	94.0
+			h	28.522357940673828
+			customconfiguration	"DEFAULT"
+			fill	"#FFFFCC"
+			outline	"#808080"
+		]
+		LabelGraphics
+		[
+			text	"basic_service"
+			fontSize	12
+			fontName	"Inter"
+			anchor	"t"
+		]
+	]
+	node
+	[
+		id	3
+		graphics
+		[
+			x	940.9214491331354
+			y	686.5883972470047
+			w	166.0
+			h	144.39735794067383
+			customconfiguration	"DEFAULT"
+			fill	"#FFFFCC"
+			outline	"#808080"
+		]
+		LabelGraphics
+		[
+			text	"course"
+			fontSize	12
+			fontName	"Inter"
+			anchor	"t"
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"crs_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	881.9214491331354
+			y	642.9120762173416
+		]
+		LabelGraphics
+		[
+			text	"SERIAL"
+			fontSize	11
+			fontName	"Inter"
+			x	944.9214491331354
+			y	642.9120762173416
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"crs_level"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	881.9214491331354
+			y	662.2245762173416
+		]
+		LabelGraphics
+		[
+			text	"INTEGER"
+			fontSize	11
+			fontName	"Inter"
+			x	944.9214491331354
+			y	662.2245762173416
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"crs_fl_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	881.9214491331354
+			y	681.5370762173416
+		]
+		LabelGraphics
+		[
+			text	"INTEGER"
+			fontSize	11
+			fontName	"Inter"
+			x	944.9214491331354
+			y	681.5370762173416
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"crs_tch_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	881.9214491331354
+			y	700.8495762173416
+		]
+		LabelGraphics
+		[
+			text	"INTEGER"
+			fontSize	11
+			fontName	"Inter"
+			x	944.9214491331354
+			y	700.8495762173416
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"crs_std_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	881.9214491331354
+			y	720.1620762173416
+		]
+		LabelGraphics
+		[
+			text	"INTEGER"
+			fontSize	11
+			fontName	"Inter"
+			x	944.9214491331354
+			y	720.1620762173416
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"crs_sub_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	881.9214491331354
+			y	739.4745762173416
+		]
+		LabelGraphics
+		[
+			text	"INTEGER"
+			fontSize	11
+			fontName	"Inter"
+			x	944.9214491331354
+			y	739.4745762173416
+		]
+	]
+	node
+	[
+		id	4
+		graphics
+		[
+			x	1140.9964800583975
+			y	449.4331970784578
+			w	298.0
+			h	163.70985794067383
+			customconfiguration	"DEFAULT"
+			fill	"#FFFFCC"
+			outline	"#808080"
+		]
+		LabelGraphics
+		[
+			text	"grade"
+			fontSize	12
+			fontName	"Inter"
+			anchor	"t"
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"grd_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	1015.9964800583977
+			y	396.1006260487947
+		]
+		LabelGraphics
+		[
+			text	"SERIAL"
+			fontSize	11
+			fontName	"Inter"
+			x	1107.9964800583975
+			y	396.1006260487947
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"grd_value"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	1015.9964800583977
+			y	415.4131260487947
+		]
+		LabelGraphics
+		[
+			text	"INTEGER"
+			fontSize	11
+			fontName	"Inter"
+			x	1107.9964800583975
+			y	415.4131260487947
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"grd_ant_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	1015.9964800583977
+			y	434.7256260487947
+		]
+		LabelGraphics
+		[
+			text	"INTEGER"
+			fontSize	11
+			fontName	"Inter"
+			x	1107.9964800583975
+			y	434.7256260487947
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"grd_acp_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	1015.9964800583977
+			y	454.0381260487947
+		]
+		LabelGraphics
+		[
+			text	"INTEGER"
+			fontSize	11
+			fontName	"Inter"
+			x	1107.9964800583975
+			y	454.0381260487947
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"grd_description"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	1015.9964800583977
+			y	473.3506260487947
+		]
+		LabelGraphics
+		[
+			text	"CHARACTER VARYING(1000)"
+			fontSize	11
+			fontName	"Inter"
+			x	1107.9964800583975
+			y	473.3506260487947
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"grd_std_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	1015.9964800583977
+			y	492.6631260487947
+		]
+		LabelGraphics
+		[
+			text	"INTEGER"
+			fontSize	11
+			fontName	"Inter"
+			x	1107.9964800583975
+			y	492.6631260487947
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"grd_crs_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	1015.9964800583977
+			y	511.97562604879477
+		]
+		LabelGraphics
+		[
+			text	"INTEGER"
+			fontSize	11
+			fontName	"Inter"
+			x	1107.9964800583975
+			y	511.97562604879477
+		]
+	]
+	node
+	[
+		id	5
+		graphics
+		[
+			x	120.5
+			y	307.9850893480976
+			w	241.0
+			h	67.14735794067383
+			customconfiguration	"DEFAULT"
+			fill	"#FFFFCC"
+			outline	"#808080"
+		]
+		LabelGraphics
+		[
+			text	"Identity_document"
+			fontSize	12
+			fontName	"Inter"
+			anchor	"t"
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"idoc_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	24.0
+			y	302.9337683184345
+		]
+		LabelGraphics
+		[
+			text	"INTEGER"
+			fontSize	11
+			fontName	"Inter"
+			x	82.0
+			y	302.9337683184345
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"idoc_type"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	24.0
+			y	322.2462683184345
+		]
+		LabelGraphics
+		[
+			text	"CHARACTER VARYING(100)"
+			fontSize	11
+			fontName	"Inter"
+			x	82.0
+			y	322.2462683184345
+		]
+	]
+	node
+	[
+		id	6
+		graphics
+		[
+			x	238.6373793093536
+			y	625.5705798028836
+			w	214.0
+			h	67.14735794067383
+			customconfiguration	"DEFAULT"
+			fill	"#FFFFCC"
+			outline	"#808080"
+		]
+		LabelGraphics
+		[
+			text	"nationality"
+			fontSize	12
+			fontName	"Inter"
+			anchor	"t"
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"nat_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	155.6373793093536
+			y	620.5192587732205
+		]
+		LabelGraphics
+		[
+			text	"SERIAL"
+			fontSize	11
+			fontName	"Inter"
+			x	213.6373793093536
+			y	620.5192587732205
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"nat_name"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	155.6373793093536
+			y	639.8317587732205
+		]
+		LabelGraphics
+		[
+			text	"CHARACTER VARYING"
+			fontSize	11
+			fontName	"Inter"
+			x	213.6373793093536
+			y	639.8317587732205
+		]
+	]
+	node
+	[
+		id	7
+		graphics
+		[
+			x	335.0
+			y	1023.819346300907
+			w	52.0
+			h	28.522357940673828
+			customconfiguration	"DEFAULT"
+			fill	"#FFFFCC"
+			outline	"#808080"
+		]
+		LabelGraphics
+		[
+			text	"Quota"
+			fontSize	12
+			fontName	"Inter"
+			anchor	"t"
+		]
+	]
+	node
+	[
+		id	8
+		graphics
+		[
+			x	787.751375313659
+			y	80.06449731461979
+			w	232.0
+			h	86.45985794067383
+			customconfiguration	"DEFAULT"
+			fill	"#FFFFCC"
+			outline	"#808080"
+		]
+		LabelGraphics
+		[
+			text	"represent"
+			fontSize	12
+			fontName	"Inter"
+			anchor	"t"
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"representative_rps_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	695.751375313659
+			y	65.3569262849567
+		]
+		LabelGraphics
+		[
+			text	"SERIAL"
+			fontSize	11
+			fontName	"Inter"
+			x	820.751375313659
+			y	65.3569262849567
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"student_std_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	695.751375313659
+			y	84.6694262849567
+		]
+		LabelGraphics
+		[
+			text	"SERIAL"
+			fontSize	11
+			fontName	"Inter"
+			x	820.751375313659
+			y	84.6694262849567
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"rpt_mean"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	695.751375313659
+			y	103.9819262849567
+		]
+		LabelGraphics
+		[
+			text	"BOOLEAN"
+			fontSize	11
+			fontName	"Inter"
+			x	820.751375313659
+			y	103.9819262849567
+		]
+	]
+	node
+	[
+		id	9
+		graphics
+		[
+			x	408.36855513267835
+			y	62.542428970336914
+			w	260.0
+			h	125.08485794067383
+			customconfiguration	"DEFAULT"
+			fill	"#FFFFCC"
+			outline	"#808080"
+		]
+		LabelGraphics
+		[
+			text	"representative"
+			fontSize	12
+			fontName	"Inter"
+			anchor	"t"
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"rps_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	302.36855513267835
+			y	28.522357940673828
+		]
+		LabelGraphics
+		[
+			text	"SERIAL"
+			fontSize	11
+			fontName	"Inter"
+			x	390.36855513267835
+			y	28.522357940673828
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"rps_usr_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	302.36855513267835
+			y	47.83485794067383
+		]
+		LabelGraphics
+		[
+			text	"INTEGER"
+			fontSize	11
+			fontName	"Inter"
+			x	390.36855513267835
+			y	47.83485794067383
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"rps_rr_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	302.36855513267835
+			y	67.14735794067383
+		]
+		LabelGraphics
+		[
+			text	"INTEGER"
+			fontSize	11
+			fontName	"Inter"
+			x	390.36855513267835
+			y	67.14735794067383
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"rps_profession"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	302.36855513267835
+			y	86.45985794067383
+		]
+		LabelGraphics
+		[
+			text	"CHARACTER VARYING"
+			fontSize	11
+			fontName	"Inter"
+			x	390.36855513267835
+			y	86.45985794067383
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"rps_job"
+			fontSize	11
+			fontName	"Inter"
+			x	302.36855513267835
+			y	105.77235794067383
+		]
+		LabelGraphics
+		[
+			text	"CHARACTER VARYING"
+			fontSize	11
+			fontName	"Inter"
+			x	390.36855513267835
+			y	105.77235794067383
+		]
+	]
+	node
+	[
+		id	10
+		graphics
+		[
+			x	62.5
+			y	1023.819346300907
+			w	125.0
+			h	28.522357940673828
+			customconfiguration	"DEFAULT"
+			fill	"#FFFFCC"
+			outline	"#808080"
+		]
+		LabelGraphics
+		[
+			text	"representative_role"
+			fontSize	12
+			fontName	"Inter"
+			anchor	"t"
+		]
+	]
+	node
+	[
+		id	11
+		graphics
+		[
+			x	794.8984812128956
+			y	395.10620918132867
+			w	333.0
+			h	202.33485794067383
+			customconfiguration	"DEFAULT"
+			fill	"#FFFFCC"
+			outline	"#808080"
+		]
+		LabelGraphics
+		[
+			text	"student"
+			fontSize	12
+			fontName	"Inter"
+			anchor	"t"
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"std_usr_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	652.3984812128956
+			y	322.4611381516656
+		]
+		LabelGraphics
+		[
+			text	"INTEGER"
+			fontSize	11
+			fontName	"Inter"
+			x	786.3984812128956
+			y	322.4611381516656
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"std_bs_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	652.3984812128956
+			y	341.7736381516656
+		]
+		LabelGraphics
+		[
+			text	"INTEGER"
+			fontSize	11
+			fontName	"Inter"
+			x	786.3984812128956
+			y	341.7736381516656
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"std_previous_inst"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	652.3984812128956
+			y	361.0861381516656
+		]
+		LabelGraphics
+		[
+			text	"CHARACTER VARYING(100)"
+			fontSize	11
+			fontName	"Inter"
+			x	786.3984812128956
+			y	361.0861381516656
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"std_bs_code"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	652.3984812128956
+			y	380.3986381516656
+		]
+		LabelGraphics
+		[
+			text	"CHARACTER VARYING(50)"
+			fontSize	11
+			fontName	"Inter"
+			x	786.3984812128956
+			y	380.3986381516656
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"std_photo_dir"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	652.3984812128956
+			y	399.7111381516656
+		]
+		LabelGraphics
+		[
+			text	"CHARACTER VARYING(150)"
+			fontSize	11
+			fontName	"Inter"
+			x	786.3984812128956
+			y	399.7111381516656
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"std_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	652.3984812128956
+			y	419.0236381516656
+		]
+		LabelGraphics
+		[
+			text	"SERIAL"
+			fontSize	11
+			fontName	"Inter"
+			x	786.3984812128956
+			y	419.0236381516656
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"std_inst_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	652.3984812128956
+			y	438.3361381516656
+		]
+		LabelGraphics
+		[
+			text	"INTEGER"
+			fontSize	11
+			fontName	"Inter"
+			x	786.3984812128956
+			y	438.3361381516656
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"std_basic_service_check"
+			fontSize	11
+			fontName	"Inter"
+			x	652.3984812128956
+			y	457.6486381516656
+		]
+		LabelGraphics
+		[
+			text	"BOOLEAN"
+			fontSize	11
+			fontName	"Inter"
+			x	786.3984812128956
+			y	457.6486381516656
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"std_intitucion_diferent"
+			fontSize	11
+			fontName	"Inter"
+			x	652.3984812128956
+			y	476.9611381516656
+		]
+		LabelGraphics
+		[
+			text	"CHARACTER VARYING"
+			fontSize	11
+			fontName	"Inter"
+			x	786.3984812128956
+			y	476.9611381516656
+		]
+	]
+	node
+	[
+		id	12
+		graphics
+		[
+			x	809.0953713891814
+			y	909.3070610349002
+			w	244.0
+			h	67.14735794067383
+			customconfiguration	"DEFAULT"
+			fill	"#FFFFCC"
+			outline	"#808080"
+		]
+		LabelGraphics
+		[
+			text	"subject"
+			fontSize	12
+			fontName	"Inter"
+			anchor	"t"
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"sub_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	711.0953713891814
+			y	904.2557400052372
+		]
+		LabelGraphics
+		[
+			text	"SERIAL"
+			fontSize	11
+			fontName	"Inter"
+			x	772.0953713891814
+			y	904.2557400052372
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"sub_name"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	711.0953713891814
+			y	923.5682400052372
+		]
+		LabelGraphics
+		[
+			text	"CHARACTER VARYING(100)"
+			fontSize	11
+			fontName	"Inter"
+			x	772.0953713891814
+			y	923.5682400052372
+		]
+	]
+	node
+	[
+		id	13
+		graphics
+		[
+			x	1054.0109157184781
+			y	921.328238360233
+			w	232.0
+			h	86.45985794067383
+			customconfiguration	"DEFAULT"
+			fill	"#FFFFCC"
+			outline	"#808080"
+		]
+		LabelGraphics
+		[
+			text	"teacher"
+			fontSize	12
+			fontName	"Inter"
+			anchor	"t"
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"tcr_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	962.0109157184781
+			y	906.6206673305699
+		]
+		LabelGraphics
+		[
+			text	"SERIAL"
+			fontSize	11
+			fontName	"Inter"
+			x	1022.0109157184781
+			y	906.6206673305699
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"tcr_carrer"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	962.0109157184781
+			y	925.9331673305699
+		]
+		LabelGraphics
+		[
+			text	"CHARACTER VARYING"
+			fontSize	11
+			fontName	"Inter"
+			x	1022.0109157184781
+			y	925.9331673305699
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"tcr_fl_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	962.0109157184781
+			y	945.2456673305699
+		]
+		LabelGraphics
+		[
+			text	"INTEGER"
+			fontSize	11
+			fontName	"Inter"
+			x	1022.0109157184781
+			y	945.2456673305699
+		]
+	]
+	node
+	[
+		id	14
+		graphics
+		[
+			x	427.0
+			y	1023.8193463009068
+			w	42.0
+			h	28.522357940673828
+			customconfiguration	"DEFAULT"
+			fill	"#FFFFCC"
+			outline	"#808080"
+		]
+		LabelGraphics
+		[
+			text	"user"
+			fontSize	12
+			fontName	"Inter"
+			anchor	"t"
+		]
+	]
+	node
+	[
+		id	15
+		graphics
+		[
+			x	416.7122891215653
+			y	386.30262604479816
+			w	290.0
+			h	279.5848579406738
+			customconfiguration	"DEFAULT"
+			fill	"#FFFFCC"
+			outline	"#808080"
+		]
+		LabelGraphics
+		[
+			text	"staff"
+			fontSize	12
+			fontName	"Inter"
+			anchor	"t"
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"usr_name"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	295.7122891215653
+			y	275.0325550151351
+		]
+		LabelGraphics
+		[
+			text	"CHARACTER VARYING(100)"
+			fontSize	11
+			fontName	"Inter"
+			x	379.7122891215653
+			y	275.0325550151351
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"usr_lastname"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	295.7122891215653
+			y	294.3450550151351
+		]
+		LabelGraphics
+		[
+			text	"CHARACTER VARYING(100)"
+			fontSize	11
+			fontName	"Inter"
+			x	379.7122891215653
+			y	294.3450550151351
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"urs_birthplace"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	295.7122891215653
+			y	313.6575550151351
+		]
+		LabelGraphics
+		[
+			text	"CHARACTER VARYING(1000)"
+			fontSize	11
+			fontName	"Inter"
+			x	379.7122891215653
+			y	313.6575550151351
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"usr_birthdate"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	295.7122891215653
+			y	332.9700550151351
+		]
+		LabelGraphics
+		[
+			text	"DATE"
+			fontSize	11
+			fontName	"Inter"
+			x	379.7122891215653
+			y	332.9700550151351
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"usr_idoc_code"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	295.7122891215653
+			y	352.2825550151351
+		]
+		LabelGraphics
+		[
+			text	"CHARACTER VARYING(20)"
+			fontSize	11
+			fontName	"Inter"
+			x	379.7122891215653
+			y	352.2825550151351
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"usr_address"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	295.7122891215653
+			y	371.5950550151351
+		]
+		LabelGraphics
+		[
+			text	"CHARACTER VARYING(1000)"
+			fontSize	11
+			fontName	"Inter"
+			x	379.7122891215653
+			y	371.5950550151351
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"usr_phone_1"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	295.7122891215653
+			y	390.9075550151351
+		]
+		LabelGraphics
+		[
+			text	"CHARACTER VARYING(10)"
+			fontSize	11
+			fontName	"Inter"
+			x	379.7122891215653
+			y	390.9075550151351
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"usr_phone_2"
+			fontSize	11
+			fontName	"Inter"
+			x	295.7122891215653
+			y	410.2200550151351
+		]
+		LabelGraphics
+		[
+			text	"CHARACTER VARYING(10)"
+			fontSize	11
+			fontName	"Inter"
+			x	379.7122891215653
+			y	410.2200550151351
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"usr_phone_3"
+			fontSize	11
+			fontName	"Inter"
+			x	295.7122891215653
+			y	429.5325550151351
+		]
+		LabelGraphics
+		[
+			text	"CHARACTER VARYING(10)"
+			fontSize	11
+			fontName	"Inter"
+			x	379.7122891215653
+			y	429.5325550151351
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"usr_email"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	295.7122891215653
+			y	448.8450550151351
+		]
+		LabelGraphics
+		[
+			text	"CHARACTER VARYING(100)"
+			fontSize	11
+			fontName	"Inter"
+			x	379.7122891215653
+			y	448.8450550151351
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"usr_nat_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	295.7122891215653
+			y	468.1575550151351
+		]
+		LabelGraphics
+		[
+			text	"INTEGER"
+			fontSize	11
+			fontName	"Inter"
+			x	379.7122891215653
+			y	468.1575550151351
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"usr_idoc_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	295.7122891215653
+			y	487.4700550151351
+		]
+		LabelGraphics
+		[
+			text	"INTEGER"
+			fontSize	11
+			fontName	"Inter"
+			x	379.7122891215653
+			y	487.4700550151351
+		]
+		LabelGraphics
+		[
+		]
+		LabelGraphics
+		[
+			text	"usr_id"
+			fontSize	11
+			fontStyle	"bold"
+			fontName	"Inter"
+			x	295.7122891215653
+			y	506.78255501513513
+		]
+		LabelGraphics
+		[
+			text	"INTEGER"
+			fontSize	11
+			fontName	"Inter"
+			x	379.7122891215653
+			y	506.78255501513513
+		]
+	]
+	edge
+	[
+		source	1
+		target	3
+		graphics
+		[
+			fill	"#FFAA00"
+			targetArrow	"standard"
+		]
+	]
+	edge
+	[
+		source	4
+		target	3
+		graphics
+		[
+			fill	"#FFAA00"
+			targetArrow	"standard"
+		]
+	]
+	edge
+	[
+		source	4
+		target	0
+		graphics
+		[
+			fill	"#FFAA00"
+			targetArrow	"standard"
+		]
+	]
+	edge
+	[
+		source	8
+		target	9
+		graphics
+		[
+			fill	"#FFAA00"
+			targetArrow	"standard"
+		]
+	]
+	edge
+	[
+		source	3
+		target	11
+		graphics
+		[
+			fill	"#FFAA00"
+			targetArrow	"standard"
+		]
+	]
+	edge
+	[
+		source	8
+		target	11
+		graphics
+		[
+			fill	"#FFAA00"
+			targetArrow	"standard"
+		]
+	]
+	edge
+	[
+		source	3
+		target	12
+		graphics
+		[
+			fill	"#FFAA00"
+			targetArrow	"standard"
+		]
+	]
+	edge
+	[
+		source	3
+		target	13
+		graphics
+		[
+			fill	"#FFAA00"
+			targetArrow	"standard"
+		]
+	]
+	edge
+	[
+		source	9
+		target	15
+		graphics
+		[
+			fill	"#FFAA00"
+			targetArrow	"standard"
+		]
+	]
+	edge
+	[
+		source	11
+		target	15
+		graphics
+		[
+			fill	"#FFAA00"
+			targetArrow	"standard"
+		]
+	]
+	edge
+	[
+		source	15
+		target	5
+		graphics
+		[
+			fill	"#FFAA00"
+			targetArrow	"standard"
+		]
+	]
+	edge
+	[
+		source	15
+		target	6
+		graphics
+		[
+			fill	"#FFAA00"
+			targetArrow	"standard"
+		]
+	]
+]
