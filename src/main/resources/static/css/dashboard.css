@@ -1,0 +1,63 @@
+        .contenedor {
+            margin: 0 auto;
+            width: 80%;
+            padding: 20px;
+        }
+
+        .seccion {
+            margin-bottom: 20px;
+        }
+
+        .titulo {
+            font-size: 24px;
+            color: #6B4F4B;
+        }
+
+        .texto {
+            font-size: 18px;
+            color: #333;
+        }
+
+        .contenedor-principal {
+            display: flex;
+        }
+
+        .menu {
+            flex: 1;
+            /* O podr�as usar un ancho fijo, por ejemplo, width: 200px; */
+            /* Estilos adicionales para tu men� */
+        }
+
+        .contenido {
+            flex: 3;
+            /* Ocupa el espacio restante */
+            /* Estilos adicionales para tu contenido */
+        }
+
+        .cabecera {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            /* Agrega aqu� m�s estilos como padding, background, etc. */
+        }
+
+        .logo {
+            margin-right: 15px;
+            /* Espacio entre el logo y el t�tulo */
+            /* Puedes ajustar el tama�o del logo si es necesario */
+            width: 50px;
+            /* Por ejemplo */
+            height: auto;
+        }
+
+        .redes-sociales a {
+            margin-right: 10px;
+            /* Espacio entre los �conos */
+        }
+
+        .redes-sociales img {
+            width: 40px;
+            /* Tama�o de los �conos */
+            height: auto;
+        }

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <title>Register</title>
+    <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
+    <link rel="stylesheet" href="/css/user.css">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+
+<body>
+    <div class="contenedor-principal">
+        <div class="menu" th:replace="${isAdmin}?'fragments/menu_admin':'fragments/menu_user'"></div>
+
+        <div class="contenido">
+
+         <div class="w3-card-4">
+			  <div class="w3-container w3-brown">
+    <h2>Usuarios</h2>
+  </div>
+            <form class="w3-container" th:action="@{/user}" th:object="${user}" method="post">
+                <p>  
+                <label class="w3-text-brown" for="username">Name:</label>
+                <input class="w3-input w3-border w3-sand" type="text" id="username" th:field="*{username}" />
+<p>  
+                <label class="w3-text-brown" for="password">Password:</label>
+                <input class="w3-input w3-border w3-sand" type="password" id="password" th:field="*{password}" />
+				<p>  
+                <label for="role">Role:</label>
+                <select id="role" th:field="*{role}">
+                    <option value="ROLE_ADMIN">Admin</option>
+                    <option value="ROLE_USER" selected="selected">Usuario</option>
+                </select>
+				<p>  
+                <button class="w3-btn w3-brown" type="submit">Register</button>
+            </form>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

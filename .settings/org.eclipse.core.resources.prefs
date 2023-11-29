@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+encoding//src/main/resources/templates/dashboard.html=UTF-8
+encoding//src/main/resources/templates/fragments/menu_admin.html=UTF-8
+encoding//src/main/resources/templates/fragments/menu_user.html=UTF-8
+encoding//src/main/resources/templates/login.html=UTF-8
+encoding//src/main/resources/templates/user.html=UTF-8

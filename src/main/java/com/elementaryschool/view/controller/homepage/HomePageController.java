@@ -15,8 +15,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class HomePageController {
     @GetMapping("/")
     public String paginaInicio(Model model) {
-        model.addAttribute("mensaje", "¡Hola, Spring Boot MVC!");
-        return "inicio"; // Esto corresponde al nombre de una plantilla Thymeleaf (inicio.html)
+    	return "login"; // Esto corresponde al nombre de una plantilla Thymeleaf (inicio.html)
     }
     @GetMapping("/pagina1")
     public String pagina1(Model model) {

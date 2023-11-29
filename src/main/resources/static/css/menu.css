@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Fixed sidenav, full height */
+.sidenav {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #6B4F4B;
+  overflow-x: hidden;
+  padding-top: 20px;
+  
+}
+
+/* Style the sidenav links and the dropdown button */
+.sidenav a, .dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 120%;
+  color: #E0B538;
+  display: block;
+  border: none;
+  background: none;
+  width: 100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+    background-color: #E0B538;
+    color: #6B4F4B;
+}
+
+
+/* Add an active class to the active dropdown button */
+.active {
+    background-color: #E0B538;
+    color: #6B4F4B;
+}
+
+/* Dropdown container (hidden by default). Optional: add a lighter background color and some left padding to change the design of the dropdown content */
+.dropdown-container {
+  display: none;
+  background-color: #7d5a56;
+  padding-left: 8px;
+}
+
+/* Optional: Style the caret down icon */
+.fa-caret-down {
+  float: right;
+  padding-right: 8px;
+}
+
+/* Some media queries for responsiveness */
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+.logo-container img {
+    width: 80px;
+    /* o cualquier tama�o que prefieras */
+    height: auto;
+    margin: 10px 0;
+    /* otros estilos si es necesario */
+}
+
+.logo-container {
+    width: 100%;
+    /* Asume todo el ancho del men� */
+    display: flex;
+    justify-content: center;
+    /* Centra la imagen horizontalmente */
+    margin-bottom: 20px;
+    /* Espacio debajo del logo */
+}
+
+.logo-container img {
+    max-width: 80%;
+    height: auto;
+}
