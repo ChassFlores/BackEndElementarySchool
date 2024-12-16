@@ -1,11 +1,11 @@
 arguments=
 auto.sync=false
 build.scans.enabled=false
-connection.gradle.distribution=GRADLE_DISTRIBUTION(LOCAL_INSTALLATION(C\:\\gradle\\gradle-7.4.2-bin\\gradle-7.4.2))
+connection.gradle.distribution=GRADLE_DISTRIBUTION(WRAPPER)
 connection.project.dir=
 eclipse.preferences.version=1
 gradle.user.home=
-java.home=
+java.home=E\:/Programacion/Proyecto Chass/Programs to use/jdk-17.0.12
 jvm.arguments=
 offline.mode=false
 override.workspace.settings=true
