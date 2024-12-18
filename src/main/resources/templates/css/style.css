@@ -81,6 +81,8 @@ div.login_bottom a {
     border-radius: 20px;
     text-decoration: none;
     background: #888888;
+    border-bottom: 0px;
+    height: ;
 }
 
 div.data input {
