@@ -3,6 +3,16 @@ body {
     font-family: Roboto;
 }
 
+a {
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+a:visited {
+    color: black;
+}
+
 div.profesor_table_container {
     border: 1px solid black;
     padding: 10px;
@@ -22,15 +32,15 @@ div.input_search {
 }
 
 div.input_search input {
-    background-color: lightgray;
-    border: 1px solid lightgrey;
-    border-radius: 10px;
+    background-color: white;
+    border: 2px solid lightgrey;
+    border-radius: 20px;
     padding: 10px;
     padding-left: 40px;
     margin-left: 20%;
     background-image: url();
-    height: 40px;
-    width: 250px;
+    height: 35px;
+    width: 40%;
 }
 
 div.input_search span {
@@ -53,3 +63,61 @@ div.button_add_teacher button {
     border-radius: 10px;
     cursor: pointer;
 }
+
+
+div.table_container table{
+    border-collapse: collapse;
+}
+
+div.table_container thead th {
+    color: white;
+    width: 250px;
+    padding: 20px;
+    background-color: rgb(116, 57, 73);
+}
+
+div.table_container thead th:first-child {
+    border-top-left-radius: 10px;
+
+}
+
+div.table_container thead th:last-child {
+    border-top-right-radius: 10px;
+
+}
+
+div.table_container tbody th {
+    color: black;
+    width: 250px;
+    padding: 20px;
+}
+
+div.foot_contanier {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+div.foot_contanier i{
+    padding: 10px;
+    padding-right: 10px;
+}
+
+div.foot_contanier button{
+    background-color: rgb(116, 57, 73);
+    border: 1px solid rgb(116, 57, 73);
+    border-radius: 7px;
+    margin-right: 10px;
+    color: white;
+    cursor: pointer;
+    width: 115px;
+}
+
+div.foot_contanier button.after_button span{
+    padding-left: 10px;
+}
+div.foot_contanier button.before_button span{
+    padding-right: 10px;
+}
+
+
