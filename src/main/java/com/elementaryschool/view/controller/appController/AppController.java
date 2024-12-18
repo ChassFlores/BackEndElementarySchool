@@ -24,9 +24,9 @@ public class AppController {
 	@Autowired
 	private UserApplicationRepository userApplicationRepository;
 
-    @GetMapping("/login")
+    @GetMapping("/index")
     public String login() {
-        return "login";
+        return "index";
     }
 
     @GetMapping("/dashboard")
