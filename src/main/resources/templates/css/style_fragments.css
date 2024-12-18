@@ -1,0 +1,166 @@
+html {
+    height: 100%;
+    margin: 0px;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    height: 100%;
+    background-color: #F2F2F2;
+    margin: 0px;
+}
+
+main {
+    height: 100%;
+}
+
+div.main_container {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 300px auto;
+    grid-template-rows: 145px auto;
+}
+
+div.logo {
+    display: flex;
+    justify-content: center;
+    background-color: #6C2941;
+    align-items: center;
+}
+
+div.logo img {
+    width: 32%;
+    height: 50%;
+    padding-left: 15%;
+}
+
+div.logo p {
+    color: white;
+    text-align: center;
+    padding: 2px;
+    padding-right: 10%;
+}
+
+
+nav.left_nav {
+    grid-column: 1;
+    grid-row: 2;
+    position: relative;
+    background-color: #6C2941;
+
+}
+
+nav.left_nav img {
+    width: 30px;
+    padding-left: 50px;
+    padding-right: 35px;
+    position: relative;
+    top: 7px;
+}
+
+ul {
+    padding: 0px;
+
+}
+
+li {
+    list-style: none;
+    position: relative;
+}
+
+a {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+a:hover {
+    border-left: 5px solid white;
+    padding-left: 10px;
+    font-size: bold;
+}
+
+a:focus {
+    border-left: 5px solid white;
+    padding-left: 10px;
+
+}
+
+nav.left_nav li:last-child {
+    position: absolute;
+    bottom: 3%;
+}
+
+nav.top_nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+div.top_tittle {
+    margin-left: 20px;
+    width: 100%;
+}
+
+div.top_tittle h1 {
+    text-align: center;
+    font-size: 40px;
+    margin-left: 18%;
+}
+
+div.usuario_name_logo {
+    width: 15%;
+    height: 80%;
+    margin-right: 55px;
+    margin-left: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+div.usuario_name_logo a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #1C274C;
+    padding-left: 10%;
+    padding-right: 10px;
+}
+
+div.usuario_name_logo img {
+    position: relative;
+    left: -10px;
+    width: 40px;
+}
+
+div.usuario_name_logo a:hover {
+    background-color: #c7babf;
+    border: 1px solid #c7babf;
+    border-radius: 15px;
+    font-size: bold;
+}
+
+div.usuario_name_logo a:focus {
+    border: none;
+}
+
+div.main_content {
+    display: flex;
+    overflow: hidden;
+    background-color: white;
+    border-top: 5px solid #926A78;
+    box-shadow: 0px 0px 10px #926A78;
+}
+
+div.main_content iframe {
+    width: 100%;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    margin-left: 50px
+}

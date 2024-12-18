@@ -4,62 +4,78 @@
 <head>
     <meta http-equiv=”Content-Type” content=”text/html; charset=UTF-8″ />
     <title>Inicio</title>
-    <link rel="stylesheet" href="/css/dashboard.css">
+    <link rel="stylesheet" href="/css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
-<body>
-    <div class="contenedor-principal">
-        <div class="menu" th:replace="${isAdmin}?'fragments/menu_admin':'fragments/menu_user'"></div>
+<body class="body_dashboard">
 
-        <div class="contenido">
-            <div class="contenedor">
-                <header class="cabecera">
-                    <img th:src="@{/images/escudo.png}" alt="Escudo del Colegio">
-                    <h2 class="titulo">ESCUELA FISCOMISIONAL MERCEDARIA SAN JOSÉ DE EL TEJAR</h2>
-                </header>
-                <div class="seccion">
-                    <h3 class="titulo">Misión</h3>
-                    <p class="texto">La Institución Educativa Fiscomisional "San José" de El Tejar, continuará siendo
-                        líder en la educación. Se constituirá en una Institución transformadora y liberadora de la
-                        sociedad, empleando altos niveles de calidad y competitividad, donde la comunidad educativa sea
-                        promotora de valores y defensora de los derechos humanos y del medio ambiente. Los estudiantes
-                        que se formen en nuestra institución obtendrán una sólida preparación espiritual, científica,
-                        crítica, creativa, participativa, serán competentes, emprendedores y motivadores en el cuidado
-                        de la naturaleza y capaces de las habilidades para la vida en donde incrementarán sus
-                        oportunidades para integrarse a la sociedad de manera productiva, saludable, placentera
-                        identificando sus aspiraciones de manera realista, evaluando sus capacidades y el medio de
-                        manera precisa, trabajando con sólidos valores mercedarios y una amplia conciencia Nacional,
-                        para enfrentar los retos del nuevo siglo.
+    <main class="dashboard_container">
+        <div class="mision_container">
+            <img src="./logo/binoculars-logo.svg" alt="binoculars_logo">
+            <h2>Misión</h2>
+            <p>
+                La Institución Educativa Fiscomisional "San José" de El Tejar, continuará siendo líder en la educación.
+                Se
+                constituirá en una Institución transformadora y liberadora de la sociedad, empleando altos niveles de
+                calidad y competitividad, donde la comunidad educativa sea promotora de valores y defensora de los
+                derechos
+                humanos y del medio ambiente.
+            </p>
+            <p>
+                Los estudiantes que se formen en nuestra institución obtendrán una sólida
+                preparación espiritual, científica, crítica, creativa, participativa, serán competentes, emprendedores y
+                motivadores en el cuidado de la naturaleza y capaces de las habilidades para la vida en donde
+                incrementarán
+                sus oportunidades para integrarse a la sociedad de manera productiva, saludable, placentera
+                identificando
+                sus aspiraciones de manera realista, evaluando sus capacidades y el medio de manera precisa, trabajando
+                con
+                sólidos valores mercedarios y una amplia conciencia Nacional, para enfrentar los retos del nuevo siglo.
+            </p>
+            <p>
+                Los
+                docentes y asistentes de la educación se encuentran en continúo perfeccionamiento, comprometidos y
+                participando activamente con todos los integrantes de la comunidad educativa para el cumplimiento de las
+                metas institucionales. Los representantes legales son partícipes del proceso educativo, con una actitud
+                motivadora y receptiva hacia el aprendizaje, transformándose en un aliado de la institución apoyando el
+                desarrollo integral de sus hijos e hijas.
+            </p>
 
-                        Los docentes y asistentes de la educación se encuentran en continúo perfeccionamiento,
-                        comprometidos y participando activamente con todos los integrantes de la comunidad educativa
-                        para el cumplimiento de las metas institucionales.
-
-                        Los representantes legales son partícipes del proceso educativo, con una actitud motivadora y
-                        receptiva hacia el aprendizaje, transformándose en un aliado de la institución apoyando el
-                        desarrollo integral de sus hijos e hijas.</p>
-                </div>
-                <div class="seccion">
-                    <h3 class="titulo">Visión</h3>
-                    <p class="texto">Formar niñas y niños, respetando su diversidad, que puedan desempeñarse mediante
-                        una educación integral en la construcción del buen vivir, con amplia conciencia social, crítica,
-                        creativa y participativa, promoviendo desarrollo social, el cuidado de la salud, el medio
-                        ambiente y la prevención de riesgos, con la finalidad de mejorar la calidad de vida de cada uno
-                        de los actores de la comunidad educativa, a través de sólidos conocimientos científicos,
-                        tecnológicos práctica de valores cristianos y mercedarios, guiados por docentes y asistentes de
-                        la educación altamente calificados y que cuentan con el permanente apoyo de la familia.</p>
-                </div>
-                <div class="seccion contactos">
-                    <h3  class="titulo">Contactos</h3>
-                    <p>Puede contactarnos a través de nuestras redes sociales:</p>
-                    <div class="redes-sociales">
-                        <a href="https://www.facebook.com/profile.php?id=100057593913527" target="_blank"><img th:src="@{/images/facebook.png}" alt="Facebook"></a>
-                    </div>
-                </div>
-
+        </div>
+        <div class="vision_container">
+            <img src="./logo/goal_logo.svg" alt="goal_logo">
+            <h2>Visión</h2>
+            <p>
+                Formar niñas y niños, respetando su diversidad, que puedan desempeñarse mediante una educación integral
+                en
+                la construcción del buen vivir, con amplia conciencia social, crítica, creativa y participativa,
+                promoviendo
+                desarrollo social, el cuidado de la salud, el medio ambiente y la prevención de riesgos, con la
+                finalidad de
+                mejorar la calidad de vida de cada uno de los actores de la comunidad educativa, a través de sólidos
+                conocimientos científicos, tecnológicos práctica de valores cristianos y mercedarios, guiados por
+                docentes y
+                asistentes de la educación altamente calificados y que cuentan con el permanente apoyo de la familia.
+            </p>
+        </div>
+        <div class="contact_container">
+            <img src="./logo/contact_logo.svg" alt="contacto_logo">
+            <h2>Contactos</h2>
+            <p>Puede contactarnos a través de nuestras redes sociales:</p>
+            <div class="logo_facebook_container">
+                <a
+                    href="https://www.facebook.com/p/Instituci%C3%B3n-Educativa-San-Jos%C3%A9-de-El-Tejar-100057593913527/"><span>Facebook:</span><img
+                        src="./logo/facebook_logo.svg" alt=""></a>
             </div>
         </div>
-    </div>
+    </main>
+
 </body>
 
 </html>
