@@ -77,11 +77,10 @@ div.login_bottom a:visited {
 div.login_bottom a {
     display: inline-block;
     font-size: bold;
-    padding: 10px 15px;
+    padding: 10px 20px;
     border-radius: 20px;
     text-decoration: none;
-    background: rgb(217, 181, 60);
-    background: linear-gradient(47deg, rgba(217, 181, 60, 1) 0%, rgba(223, 4, 11, 1) 100%);
+    background: #888888;
 }
 
 div.data input {
