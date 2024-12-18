@@ -1,0 +1,55 @@
+
+body {
+    font-family: Roboto;
+}
+
+div.profesor_table_container {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+div.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.input_search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+}
+
+div.input_search input {
+    background-color: lightgray;
+    border: 1px solid lightgrey;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 40px;
+    margin-left: 20%;
+    background-image: url();
+    height: 40px;
+    width: 250px;
+}
+
+div.input_search span {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 7%;
+    padding-bottom: 7%;
+
+}
+
+input:focus {
+    border: 1px solid lightgray;
+}
+
+div.button_add_teacher button {
+    background-color: rgb(116, 57, 73);
+    color: white;
+    padding: 15px;
+    border: 1px solid rgb(116, 57, 73);
+    border-radius: 10px;
+    cursor: pointer;
+}
