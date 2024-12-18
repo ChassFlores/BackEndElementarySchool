@@ -1,0 +1,201 @@
+html {
+    height: 100%;
+}
+
+body {
+    font-family: Roboto, sans-serif;
+    height: 100%;
+    margin: 0px;
+    background-color: #F2F2F2;
+}
+
+div.contenedor-principal {
+    background-color: #E2E2E2;
+    height: 100%;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+div.login_container {
+    width: 450px;
+    margin-top: 5%;
+    border-radius: 6px;
+    background-color: rgb(226, 226, 226);
+    box-shadow: 0px 0px 8px 2px rgb(100, 100, 100);
+}
+
+div.login_container a {
+    color: white;
+}
+
+div.text_login h1 {
+    text-align: center;
+    margin-bottom: 0px;
+}
+
+div.text_login h1:nth-of-type(2) {
+    margin-top: 0px;
+}
+
+div.data {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+div.password_forgot {
+    text-align: right;
+}
+
+div.password_forgot a {
+    display: inline-block;
+    margin-top: 2%;
+    margin-bottom: 4%;
+    margin-right: 10%;
+    text-decoration: none;
+}
+
+div.login_bottom {
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
+div.password_forgot button:visited {
+    color: black;
+}
+
+div.login_bottom button:visited {
+    color: white;
+}
+
+div.login_bottom button {
+    display: inline-block;
+    font-size: bold;
+    padding: 10px 15px;
+    border-radius: 20px;
+    text-decoration: none;
+    background: rgb(217, 181, 60);
+    background: linear-gradient(47deg, rgba(217, 181, 60, 1) 0%, rgba(223, 4, 11, 1) 100%);
+}
+
+div.data input {
+    padding: 10px 15px;
+    background-color: white;
+    border: 1px solid white;
+    border-bottom: 3px solid lightgrey;
+}
+
+div.escudo {
+    display: flex;
+    justify-content: center;
+}
+
+div.escudo img {
+    padding-top: 6%;
+    width: 75px;
+}
+
+div.social_media_logo {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+div.social_media_logo img {
+    margin-top: 10%;
+    width: 40px;
+    padding: 2px;
+}
+
+div.social_media_logo div {
+    border-top: 3px solid rgb(159, 159, 159);
+}
+
+div.option_request {
+    display: flex;
+    justify-content: right;
+    margin: 20px;
+
+}
+
+div.option_request label {
+    margin-right: 10px;
+}
+
+
+div.option_request select {
+    margin-right: 25px;
+}
+
+main.dashboard_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
+    height: 100%;
+}
+
+main.dashboard_container div {
+    text-align: justify;
+    padding: 20px;
+    padding-bottom: 10px;
+    font-size: 15px;
+}
+
+main.dashboard_container div:nth-child(2) {
+    text-align: justify;
+    padding: 30px;
+    border-left: 5px solid #926a78;
+    border-right: 5px solid #926a78;
+
+}
+
+main.dashboard_container img {
+    width: 60px;
+    margin-left: 44%;
+}
+
+main.dashboard_container h2 {
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+body.dashboard_body {
+    height: 100%;
+}
+
+div.logo_facebook_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div.logo_facebook_container img {
+    width: 40px;
+    padding-left: 20px;
+    margin: 0px;
+}
+
+
+div.logo_facebook_container a {
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    background-color: #e6d7dc;
+    border-radius: 10px;
+}
+
+div.logo_facebook_container span {
+    position: relative;
+    top: -12px;
+}
+
+body.body_dashboard {
+    background-color: #FFFFFF;
+}

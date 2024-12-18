@@ -43,28 +43,18 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 		this.userDetailsService = userDetailsService;
 	}
 
-    @Override
-    protected void configure(AuthenticationManagerBuilder auth) throws Exception {
-        auth.userDetailsService(userDetailsService).passwordEncoder(passwordEncoder);
-    }
-    
-    @Override
-    protected void configure(HttpSecurity http) throws Exception {
-        http
-            .authorizeRequests()
-                .antMatchers("/priv/**").hasRole("ADMIN")  // Solo los administradores pueden acceder a las URL que comienzan con "/admin/"
-                .antMatchers("/all/**").hasRole("USER")   // Solo los usuarios normales (y también los administradores) pueden acceder a las URL que comienzan con "/user/"
-                .antMatchers("/login", "/resources/**").permitAll()
-                .anyRequest().authenticated()
-            .and()
-                .formLogin()
-                .loginPage("/login")
-                .successHandler(successHandler())
-                .permitAll()
-            .and()
-                .logout()
-                .permitAll();
-    }
+	@Override
+	protected void configure(AuthenticationManagerBuilder auth) throws Exception {
+		auth.userDetailsService(userDetailsService).passwordEncoder(passwordEncoder);
+	}
+
+	@Override
+	protected void configure(HttpSecurity http) throws Exception {
+		http.authorizeRequests().antMatchers("/css/**", "/js/**", "/logo/**", "/images/**", "/resources/**").permitAll()
+				.antMatchers("/priv/**").hasRole("ADMIN").antMatchers("/all/**").hasRole("USER")
+				.antMatchers("/index", "/resources/**").permitAll().anyRequest().authenticated().and().formLogin()
+				.loginPage("/index").successHandler(successHandler()).permitAll().and().logout().permitAll();
+	}
 
 	@Bean
 	public AuthenticationSuccessHandler successHandler() {
@@ -72,30 +62,31 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 			@Override
 			public void onAuthenticationSuccess(HttpServletRequest request, HttpServletResponse response,
 					Authentication authentication) throws IOException, ServletException {
-					response.sendRedirect("/dashboard");
+				response.sendRedirect("/dashboard");
 			}
 		};
 	}
-	
+
 	@Bean
-	public CommandLineRunner setupDefaultUser(UserApplicationRepository userRepository, PasswordEncoder passwordEncoder) {
-	    return args -> {
-	        if (!userRepository.findByUsername("admin").isPresent()) {
-	        	UserApplication admin = new UserApplication();
-	            admin.setUsername("admin");
-	            admin.setStatus(Status.ACTIVE.getStatus());
-	            admin.setPassword(passwordEncoder.encode("m"));
-	            admin.setRole("ROLE_ADMIN");
-	            userRepository.save(admin);
-	        }
-	        if (!userRepository.findByUsername("user").isPresent()) {
-	        	UserApplication user = new UserApplication();
-	        	user.setUsername("user");
-	        	user.setStatus(Status.ACTIVE.getStatus());
-	        	user.setPassword(passwordEncoder.encode("m"));
-	        	user.setRole("ROLE_USER");
-	            userRepository.save(user);
-	        }
-	    };
+	public CommandLineRunner setupDefaultUser(UserApplicationRepository userRepository,
+			PasswordEncoder passwordEncoder) {
+		return args -> {
+			if (!userRepository.findByUsername("admin").isPresent()) {
+				UserApplication admin = new UserApplication();
+				admin.setUsername("admin");
+				admin.setStatus(Status.ACTIVE.getStatus());
+				admin.setPassword(passwordEncoder.encode("m"));
+				admin.setRole("ROLE_ADMIN");
+				userRepository.save(admin);
+			}
+			if (!userRepository.findByUsername("user").isPresent()) {
+				UserApplication user = new UserApplication();
+				user.setUsername("user");
+				user.setStatus(Status.ACTIVE.getStatus());
+				user.setPassword(passwordEncoder.encode("m"));
+				user.setRole("ROLE_USER");
+				userRepository.save(user);
+			}
+		};
 	}
 }
