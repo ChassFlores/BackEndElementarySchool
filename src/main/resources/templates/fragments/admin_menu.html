@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin - San José</title>
+
+    <link rel="stylesheet" href="../css/style_fragments.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <main>
+
+        <div class="main_container">
+            <div class="logo">
+                <img src="../logo/escudo.png" alt="escudo_escuela">
+                <p>Institución Educativa San José de El Tejar </p>
+            </div>
+            <nav class="left_nav">
+                <ul>
+                    <li><a href="#" data-url="./admin_menu_htmls/profesor.html">
+                            <img src="../logo/teacher_logo.svg" alt="teacher_logo">Profesores</a></li>
+                    <li><a href="#" data-url="./admin_menu_htmls/alumno.html">
+                            <img src="../logo/student_logo.svg" alt="student_logo">Alumnos</a></li>
+                    <li><a href="#" data-url="./admin_menu_htmls/materias.html">
+                            <img src="../logo/materias_logo.svg" alt="student_logo">Materias</a></li>
+                    <li><a href="#" data-url="./admin_menu_htmls/calificacion.html">
+                            <img src="../logo/notes-logo.svg" alt="notes_logo">Calificaciones</a></li>
+                    <li><a href="#" data-url="./admin_menu_htmls/matriculacion.html">
+                            <img src="../logo/add_logo.svg" alt="add_logo">Matriculación</a></li>
+                    <li><a href="#">
+                            <img src="../logo/exit-logo.svg" alt="exit-logo">Cerrar Sesión</a></li>
+                </ul>
+            </nav>
+            <nav class="top_nav">
+                <div class="top_tittle">
+                    <h1></h1>
+                </div>
+                <div class="usuario_name_logo">
+                    <a href="#">
+                        <img src="../logo/user_logo.svg" alt="">
+                        *user_name*</a>
+                </div>
+            </nav>
+            <div class="main_content">
+                <iframe id="contentIframe" src="../dashboard.html" frameborder="0"></iframe>
+            </div>
+        </div>
+
+    </main>
+</body>
+
+<script>
+    const navLinks = document.querySelectorAll('.left_nav a');
+    const iframe = document.getElementById('contentIframe');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', (e) => {
+            e.preventDefault();
+
+            const url = link.getAttribute('data-url');
+            iframe.src = url;
+        });
+    });
+</script>
+
+</html>
