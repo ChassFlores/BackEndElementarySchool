@@ -44,4 +44,9 @@ public class UserApplication extends Base {
 		this.role = role;
 	}
 
+	@Override
+	public String toString() {
+		return "UserApplication [username=" + username + ", password= encripted" + ", role=" + role + "]";
+	}
+
 }

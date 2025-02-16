@@ -66,27 +66,4 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 			}
 		};
 	}
-
-	@Bean
-	public CommandLineRunner setupDefaultUser(UserApplicationRepository userRepository,
-			PasswordEncoder passwordEncoder) {
-		return args -> {
-			if (!userRepository.findByUsername("admin").isPresent()) {
-				UserApplication admin = new UserApplication();
-				admin.setUsername("admin");
-				admin.setStatus(Status.ACTIVE.getStatus());
-				admin.setPassword(passwordEncoder.encode("m"));
-				admin.setRole("ROLE_ADMIN");
-				userRepository.save(admin);
-			}
-			if (!userRepository.findByUsername("user").isPresent()) {
-				UserApplication user = new UserApplication();
-				user.setUsername("user");
-				user.setStatus(Status.ACTIVE.getStatus());
-				user.setPassword(passwordEncoder.encode("m"));
-				user.setRole("ROLE_USER");
-				userRepository.save(user);
-			}
-		};
-	}
 }
