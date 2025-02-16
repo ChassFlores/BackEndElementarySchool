@@ -15,6 +15,8 @@ import javax.persistence.Id;
 public class Status implements InterfaceStatus {
 	
 	public static Status ACTIVE = new Status("ACTIVE");
+	public static Status DISABLED = new Status("DISABLED");
+	public static Status REMOVE = new Status("REMOVE");
 
 	private Long ID;
 	
